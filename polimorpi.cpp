@@ -22,3 +22,16 @@ public:
         cout << "Pesan dari Lia" << endl; //definisi member inisialisasi
     }
 };
+
+int main() {
+    seseorang* object;
+    joko a;
+    lia b;
+
+    object = &a;
+    object->pesan();
+    object = &b;
+    object->pesan();
+    //a.seseorang::pesan();
+    return 0;
+}
