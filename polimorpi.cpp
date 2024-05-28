@@ -15,3 +15,10 @@ public:
         cout << "Pesan dari Joko" << endl;
     }
 };
+
+class lia : public seseorang {
+public: 
+    void pesan() { //member inisialisasi
+        cout << "Pesan dari Lia" << endl; //definisi member inisialisasi
+    }
+};
